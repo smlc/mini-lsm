@@ -9,4 +9,6 @@ public interface MemoryTable {
     Optional<byte[]> get(byte[] key);
 
     void put(byte[] key, byte[] value);
+
+    int approximateSize();
 }
